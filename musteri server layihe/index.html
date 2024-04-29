@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ust_ekran">
+        <div  class="bank_logo">
+            <img src="Sekiller/bank_logo.svg"> </img>
+        </div>
+        <div class="ust_ekran_metn">
+            <ul>
+                <li>БАНК</li>
+                <li>БИЗНЕС</li>
+                <li>ИНВЕСТИЦИИ</li>
+                <li>СТРАХОВАНИЕ</li>
+                <li>МОБАЙЛ</li>
+                <li>ПУТЕШЕСТВИЯ</li>
+                <li>РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+        </div>
+        <div class="ust_ekran_cixis">ВОЙТИ</div>
+    </div>
+    <div class="metn"> 
+        <p class="basliq">Конвертер валют онлайн</p>
+    </div>
+    <div class="valyuta">
+        <div class="valyuta_div">
+            <div class="left">
+                <div class="cevirme_metn">У меня есть</div>
+                <div class="button_div">
+                    <button value="RUB" class="btn rub1">RUB</button>
+                    <button value="USD" class="btn usd1">USD</button>
+                    <button value="EUR" class="btn eur1">EUR</button>
+                    <button value="GBP" class="btn gbp1">GBP</button>
+                </div>
+                <div class="input_div">
+                    <input class="mebleg" type="number" placeholder="Miqdar...">
+                    <p id="rubToUsd"></p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="cevirme_metn">Хочу приобрести</div>
+                <div class="button_div">
+                    <button value="RUB" class="btn rub2">RUB</button>
+                    <button value="USD" class="btn usd2">USD</button>
+                    <button value="EUR" class="btn eur2">EUR</button>
+                    <button value="GBP" class="btn gbp2">GBP</button>
+                </div>
+                <div class="input_div">
+                    <input class="sonuc" type="number" placeholder="Sonuc..." readonly>
+                    <p id="usdToRub"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
